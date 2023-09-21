@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 9px 10px rgba(240, 237, 237, 0.9);
+}
+.navbar-brand:hover{
+    color: #0b9948;
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #0b9948;
+    text-decoration: none;
+}
+.search{
+    width: 80%;
+    height: 40px;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid #0b9948;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    background-color: #0b9948;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    outline: none;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/foodbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn2{
+    height: 40px;
+    width: 30%;
+    background-color: #0b9948;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 9px 10px 10px #d5d7d4;
+    transition: all .5s ;
+}
+.btn2:hover{
+    color: #0b9948;
+    border: 2px solid #0b9948;
+    background-color: white;
+    outline: none;
+    box-shadow: 9px 10px 10px #8de883;
+}
+.card-body{
+    overflow: hidden;
+    height: 350px;
+}
+.card-body img{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.card-body img:hover{
+    transform: translateY(-20px);
+}
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(./img/foodbg\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'lobster',cursive;
+}
+.btn3{
+    width: 45px;
+    width: 100px;
+    background: #0b9948;
+    margin-left: -10px;
+    color: white;
+    border: none;
+    padding: 11px 0;    
+}
+.footer input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0b9948;
+    height: 45px;
+    width: 55%;
+    margin-top: 20px;
+    padding: 0 10px;
+}
